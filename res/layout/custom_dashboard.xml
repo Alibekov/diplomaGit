@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="413dp"
+        android:layout_height="175dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        app:cardCornerRadius="6dp"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/image_student"
+            android:layout_width="45dp"
+            android:layout_height="38dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="136dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/image_of_subject"
+            android:layout_width="38dp"
+            android:layout_height="41dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="291dp"
+            tools:layout_editor_absoluteY="133dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="350dp"
+            />
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 9:00 AM - 10:00 AM"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="95dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/text_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="class 112"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="291dp"
+            tools:layout_editor_absoluteY="33dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="330dp"/>
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="147dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="70dp"/>
+
+        <TextView
+            android:id="@+id/text_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mathematic"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="54dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

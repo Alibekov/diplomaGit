@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_margin="4dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="6dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:text="12 march, 2021"
+            android:layout_marginLeft="290dp"
+            android:id="@+id/time"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="45dp"
+            android:text="Human Physic"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/name"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="80dp"
+            android:text="MAth"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/subject"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="120dp"
+            android:text="MAth"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/info"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="180dp"
+            android:text="Submiited"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/status"
+            android:textStyle="bold"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

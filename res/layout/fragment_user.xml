@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.user.UserFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:background="@drawable/vector"
+
+            >
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/user" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Boris Ignatov"
+            android:layout_marginLeft="147dp"
+            android:layout_marginTop="37dp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Class : 10B  |  ID: 1710107113"
+            android:layout_marginLeft="147dp"
+            android:layout_marginTop="60dp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Birthday 29.05.1999"
+            android:layout_marginLeft="147dp"
+            android:layout_marginTop="85dp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="class : 10B"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="170dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/more"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="More"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="170dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Upcoming class"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="280dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="More"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="285dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Assigments"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="480dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="More"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="480dp"
+            android:textStyle="bold"
+
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4sp"
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:layout_marginTop="200dp">
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:src="@drawable/placeholder"
+            android:background="@color/white"
+
+            />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:src="@drawable/placeholder2"
+
+            android:background="@color/white"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:src="@drawable/placeholder3"
+
+            android:background="@color/white"
+
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:src="@drawable/placeholder4"
+
+            android:background="@color/white"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:src="@drawable/placeholder5"
+
+            android:background="@color/white"
+           />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_weight="1"
+            android:src="@drawable/placeholder5"
+
+            android:background="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4sp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="310dp"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4sp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="500dp"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleview3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
