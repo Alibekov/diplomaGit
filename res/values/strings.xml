@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    
+    <string-array name="Term">
+        <item>(2020-2021) 1. Term</item>
+
+        <item>(2020-2021) 2. Term </item>
+
+        <item>(2021-2022) 3. Term </item>
+
+        <item>(2021-2022) 4. Term </item>
+    </string-array>
+</resources>

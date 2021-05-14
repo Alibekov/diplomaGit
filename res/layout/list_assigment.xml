@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="146dp"
+    android:layout_marginTop="10dp"
+    android:paddingTop="2dp"
+    android:layout_marginLeft="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="144dp"
+        android:layout_height="136dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/shadow"
+        app:cardCornerRadius="28px"
+        app:cardElevation="1dp"
+        app:cardMaxElevation="2dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:text="New assignment: Lecture 12- Human Physic "
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/urok"
+            android:layout_width="60dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/rounded_img"
+            android:text="Mathematic"
+            android:textAlignment="center"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/time_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:text="Info"
+            android:textColor="#420F5A"
+            android:textSize="9dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
